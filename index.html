@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kátia Reis</title>
-    <link rel="stylesheet" href="../portfolio/css/style.css">
+    <link rel="stylesheet" href="../portfolio/css/normalize.css">
+    <link rel="stylesheet" href="../portfolio/css/reset.css">
+    <link rel="stylesheet" href="../portfolio/css/grid.css">
+    <link rel="stylesheet" href="../portfolio/css/style.css"> <!-- -->
+    
 </head>
 <body>
     <header>
@@ -18,60 +22,91 @@
             </ul>
         </nav>
     </header>
-        <main>            
-            <div class="container_intro">
-                <div class="blue_background"></div>
-                <div class="intro_section">
-                    <div class="intro_text">
-                        <h1 id="title"><span class="hello_world">Olá, Mundo!</span> Eu sou <span class="name">Kátia Reis</span></h1>
-                        <p>Sou Desenvolvedora Front-end e aspirante a Full Stack.   
-                        </p>
-                        <p>Estudante de Eng. da Computação na Univesp. <br>Web Dev Girl entusiasta em JavaScript. Possuo conhecimento intermediário em <strong>HTML, CSS, Javascript e Python.</strong></p>
-                    </div>
-                    <div class="photo">
-                        <img src="../portfolio/img/katia-reis-glasses.jpeg" alt="Foto do rosto de Kátia Reis" width="525">  
-                    </div> 
-                </div>                                    
-            </div>
-            <div>
+        <main>
+            <section>            
+                <div class="container_intro">
+                    <div class="blue_background"></div>
+                    <div class="intro_section">
+                        <div class="intro_text">
+                            <h1 id="title"><span class="hello_world">Olá, Mundo!</span> Eu sou <span class="name">Kátia Reis</span></h1>
+                            <p>Sou Desenvolvedora Front-end e aspirante a Full Stack.   
+                            </p>
+                            <p>Estudante de Eng. da Computação na Univesp. <br>Web Dev Girl entusiasta em JavaScript. Possuo conhecimento intermediário em <strong>HTML, CSS, Javascript e Python.</strong></p>
+                        </div>
+                        <div class="photo">
+                            <img src="../portfolio/img/katia-reis-glasses.jpeg" alt="Foto do rosto de Kátia Reis" width="400">  
+                        </div> 
+                    </div>                                    
+                </div>
+            </section>
+            <div class="quote">
                 <blockquote>“ Code is like humor. When you have to explain it, it’s bad.” – Cory House</blockquote>
+            <!--    <div>
+                    <img src="../portfolio/img/katia-reis-fullbody.jpeg" width="600px
+                    ">
+                </div>  -->
             </div>
-
-        <section>
-            
-                <h2 class="subtitle">Posts</h2>
-                <img src="../img/html-code-image.jpg" alt="Imagem de Editor de texto contendo código HTML" class="post_image">
-            
-            <article class="post">
-                
-                    <h3 class="post_title">Resumo</h3><br>
-                
-                <p class="sobre"> 
-                    <span>Sobre mim</span>
-                    Profissional em transição de carreira para Desenvolvimento Web Front-end.
-                    Conhecimento intermediário em HTML, CSS, Javascript e Bootstrap; Git e Github. Inglês fluente.
-                    
-                    Atuação como Secretária de Presidência e Diretoria Trilíngue por cerca de 5 anos. Formação em Automação de Escritórios e Secretariado Executivo Trilíngue-Inglês/Alemão/Francês pela Fatec-SP, conhecimentos avançados em Word, Excel e PowerPoint, gerenciamento de projetos, vasta experiência em rotinas secretariais, suporte à presidência e à diretoria executiva.
-                    
-                    Domínio em conciliação de agendas para reuniões da diretoria e presidência, logística de reuniões, conference calls, controle e reservas de salas de reunião, reembolsos pessoais do executivo, coffee breaks e eventos corporativos; confecção de atas / action items de reuniões, follow-ups; consolidação e acompanhamento de mensuração de metas e resultados da equipe, entre outras atividades relacionadas à área.
-                    <!-- Boas práticas-Usar <p> para textos em parágrafos --> 
+            <section class="about">
+                <h2 class="about_title">Sobre</h2>
+                <p class="about_text"> 
+                    Desenvolvedora Web com domínio em HTML5 e CSS3 (Grid e Flexbox). Estilização de componentes com e sem uso de frameworks para o desenvolvimento de sites responsivos. SEO e HTML semântico.
+                    Conhecimentos intermediários em JavaScript e Bootstrap; Versionamento com Git e Github.
+                    Iniciante em SQL Server.
+                    <span>Inglês fluente.</span> Conhecimentos intermediários de Francês e Espanhol.
                 </p>
-            </article>
-        </main>
-        <footer>
-            <ul class="contact_list">
-                <li>
-                    <a href="mailto:reis.katia86@gmail.com">reis.katia86@gmail.com</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/katia-r-0528092b/" target="_blank">LinkedIn Profile"</a>
-                </li>
-                <li>
-                    <a href="https://github.com/katiareis" target="_blank">Github</a>
-                </li>
-            </ul>
 
-            <p class="rodape">Desenvolvido por Kátia Reis</p>
+                <ul class="contact_list">
+                    <li>
+                        <a href="mailto:reis.katia86@gmail.com">reis.katia86@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/katiareis/" target="_blank">LinkedIn Profile"</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="projects_section">
+                <h2>Projetos</h2>
+                <div class="bikcraft container" >
+                    <div class="grid-1-3">
+                        <a class="project_img" href="https://katiareis.github.io/origamid_WebDevCourse/" target="_blank"><img src="../portfolio/img/bikecraft.jpg" width="400"></a>
+                    <h3 class="project_01">Bikcraft</h3>
+                    <p class="description">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
+                        Projeto Bikcraft Web Page                    
+                        HTML5 | CSS3 & Grid | JavaScript                    
+                        UX Design & Usabilidade | UI Design | Tipografia | Cores SEO | Analytics | Otimização                    
+                        Adobe XD - Wireframe & Codificação do Zero
+                    </p>
+                    </div>
+                    <div class="grid-1-3">
+                        <a class="project_img" href="https://katiareis.github.io/origamid_WebDevCourse/" target="_blank"><img src="../portfolio/img/bikecraft.jpg" width="400"></a>
+                    <h3 class="project_01">Bikcraft</h3>
+                    <p class="description">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
+                        Projeto Bikcraft Web Page                    
+                        HTML5 | CSS3 & Grid | JavaScript                    
+                        UX Design & Usabilidade | UI Design | Tipografia | Cores SEO | Analytics | Otimização                    
+                        Adobe XD - Wireframe & Codificação do Zero
+                    </p>
+                    </div>
+                    <div class="grid-1-3">
+                        <a class="project_img" href="https://katiareis.github.io/origamid_WebDevCourse/" target="_blank"><img src="../portfolio/img/bikecraft.jpg" width="400"></a>
+                    <h3 class="project_01">Bikcraft</h3>
+                    <p class="description">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
+                        Projeto Bikcraft Web Page                    
+                        HTML5 | CSS3 & Grid | JavaScript                    
+                        UX Design & Usabilidade | UI Design | Tipografia | Cores SEO | Analytics | Otimização                    
+                        Adobe XD - Wireframe & Codificação do Zero
+                    </p>
+                    </div>
+                </div>
+           
+            </section>
+            
+        </main>
+
+        <footer class="footer">
+            <p>Desenvolvido por Kátia Reis</p>
+            <p>|</p>
+            <p>Veja o código deste site em <a href="https://github.com/katiareis" target="_blank">Github</a></p>
         </footer>
     </section>
 </body>
