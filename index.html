@@ -12,97 +12,133 @@
     
 </head>
 <body>
-    <header>
-        <nav class="top_nav">
+    <!-- Menu -->
+    <header class="header">
+        <nav class="header_menu">
             <ul>
-                <li><a class="active" href="#home">Home</a></li>
+                <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li><a href="#projetos">Portfólio</a></li>
+                <li><a href="blog.html">Blog</a></li>
             </ul>
         </nav>
     </header>
         <main>
-            <section>            
-                <div class="container_intro">
+            <!-- Intro -->
+            <section class="main_intro_section">            
+                <div class="container container_intro">
                     <div class="blue_background"></div>
                     <div class="intro_section">
-                        <div class="intro_text">
+                        <div class="intro_text grid-1">
                             <h1 id="title"><span class="hello_world">Olá, Mundo!</span> Eu sou <span class="name">Kátia Reis</span></h1>
                             <p>Sou Desenvolvedora Front-end e aspirante a Full Stack.   
                             </p>
                             <p>Estudante de Eng. da Computação na Univesp. <br>Web Dev Girl entusiasta em JavaScript. Possuo conhecimento intermediário em <strong>HTML, CSS, Javascript e Python.</strong></p>
                         </div>
-                        <div class="photo">
+                        <div class="photo grid-1">
                             <img src="../portfolio/img/katia-reis-glasses.jpeg" alt="Foto do rosto de Kátia Reis" width="400">  
                         </div> 
                     </div>                                    
                 </div>
-            </section>
+            </section class="quote_section">
             <div class="quote">
-                <blockquote>“ Code is like humor. When you have to explain it, it’s bad.” – Cory House</blockquote>
+
+                <blockquote>                
+                    <p>“ Code is like humor. <br>When you have to explain it, it’s bad.”</p>
+                    <cite>- Cory House</cite>
+                </blockquote>
+
             <!--    <div>
                     <img src="../portfolio/img/katia-reis-fullbody.jpeg" width="600px
-                    ">
-                </div>  -->
+                    "> -->
             </div>
+            <!-- About -->
             <section class="about">
-                <h2 class="about_title">Sobre</h2>
-                <p class="about_text"> 
-                    Desenvolvedora Web com domínio em HTML5 e CSS3 (Grid e Flexbox). Estilização de componentes com e sem uso de frameworks para o desenvolvimento de sites responsivos. SEO e HTML semântico.
-                    Conhecimentos intermediários em JavaScript e Bootstrap; Versionamento com Git e Github.
-                    Iniciante em SQL Server.
-                    <span>Inglês fluente.</span> Conhecimentos intermediários de Francês e Espanhol.
-                </p>
-
-                <ul class="contact_list">
-                    <li>
-                        <a href="mailto:reis.katia86@gmail.com">reis.katia86@gmail.com</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/katiareis/" target="_blank">LinkedIn Profile"</a>
-                    </li>
-                </ul>
-            </section>
-            <section class="projects_section">
-                <h2>Projetos</h2>
-                <div class="bikcraft container" >
-                    <div class="grid-1-3">
-                        <a class="project_img" href="https://katiareis.github.io/origamid_WebDevCourse/" target="_blank"><img src="../portfolio/img/bikecraft.jpg" width="400"></a>
-                    <h3 class="project_01">Bikcraft</h3>
-                    <p class="description">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
-                        Projeto Bikcraft Web Page                    
-                        HTML5 | CSS3 & Grid | JavaScript                    
-                        UX Design & Usabilidade | UI Design | Tipografia | Cores SEO | Analytics | Otimização                    
-                        Adobe XD - Wireframe & Codificação do Zero
-                    </p>
+                <h2 class="title">Sobre</h2>
+                <div class="container flexbox">
+                    <div class="about_items resume">
+                        <h3 class="subtitle">Resumo</h3>
+    
+                            <p class="about_text"> 
+                            Desenvolvedora Web com domínio em HTML5 e CSS3 (Grid e Flexbox). Estilização de componentes com e sem uso de frameworks para o desenvolvimento de sites responsivos. SEO e HTML semântico.</p>
+    
+                            <p class="about_text">
+                            Conhecimentos intermediários em JavaScript e Bootstrap; Versionamento com Git e Github.</p>
+    
+                            <p class="about_text">
+                            Iniciante em SQL Server.</p>
+    
+                            <p class="about_text">
+                            <span>Inglês fluente.</span> Conhecimentos intermediários de Francês e Espanhol</p>
+                        
                     </div>
-                    <div class="grid-1-3">
-                        <a class="project_img" href="https://katiareis.github.io/origamid_WebDevCourse/" target="_blank"><img src="../portfolio/img/bikecraft.jpg" width="400"></a>
-                    <h3 class="project_01">Bikcraft</h3>
-                    <p class="description">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
-                        Projeto Bikcraft Web Page                    
-                        HTML5 | CSS3 & Grid | JavaScript                    
-                        UX Design & Usabilidade | UI Design | Tipografia | Cores SEO | Analytics | Otimização                    
-                        Adobe XD - Wireframe & Codificação do Zero
-                    </p>
-                    </div>
-                    <div class="grid-1-3">
-                        <a class="project_img" href="https://katiareis.github.io/origamid_WebDevCourse/" target="_blank"><img src="../portfolio/img/bikecraft.jpg" width="400"></a>
-                    <h3 class="project_01">Bikcraft</h3>
-                    <p class="description">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
-                        Projeto Bikcraft Web Page                    
-                        HTML5 | CSS3 & Grid | JavaScript                    
-                        UX Design & Usabilidade | UI Design | Tipografia | Cores SEO | Analytics | Otimização                    
-                        Adobe XD - Wireframe & Codificação do Zero
-                    </p>
+                    <!-- Contact Me-->
+                    <div class="about_items contact">
+                        <h3 class="subtitle">Contato</h3>
+                        <ul class="contact_list">
+                            <li>
+                                <a href="https://www.linkedin.com/in/katiareis/" target="_blank">LinkedIn Profile</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/katiareis" target="_blank">Github</a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/KatiaRe98314126">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="mailto:reis.katia86@gmail.com">reis.katia86@gmail.com</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-           
+            </section>
+
+            <!-- Projects -->
+            <section class="projects_section">
+
+                <h2 class="title" >Projetos</h2>
+                <p>Estes são alguns dos projetos desenvolvidos durante o meu aprendizado em programação e tecnologias web.</p>
+
+                <div class="portfolio flexbox" >
+
+                    <div class="flex_item">
+                        <a class="project_img" href="https://katiareis.github.io/origamid_WebDevCourse/" target="_blank"><img src="../portfolio/img/bikecraft.jpg" width="300"></a>
+                    <h3 class="project_01">Bikcraft</h3>
+                    <p class="description">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
+                        Projeto Bikcraft Web Page                    
+                        HTML5 | CSS3 & Grid | JavaScript                    
+                        UX Design & Usabilidade | UI Design | Tipografia | Cores SEO | Analytics | Otimização                    
+                        Adobe XD - Wireframe & Codificação do Zero
+                    </p>
+                    </div>
+
+                    <div class="flex_item">
+                        <a class="project_img" href="https://katiareis.github.io/origamid_WebDevCourse/" target="_blank"><img src="../portfolio/img/bikecraft.jpg" width="300"></a>
+                    <h3 class="project_02">Bikcraft</h3>
+                    <p class="description">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
+                        Projeto Bikcraft Web Page                    
+                        HTML5 | CSS3 & Grid | JavaScript                    
+                        UX Design & Usabilidade | UI Design | Tipografia | Cores SEO | Analytics | Otimização                    
+                        Adobe XD - Wireframe & Codificação do Zero
+                    </p>
+                    </div>
+
+                    <div class="flex_item">
+                        <a class="project_img" href="https://katiareis.github.io/origamid_WebDevCourse/" target="_blank"><img src="../portfolio/img/bikecraft.jpg" width="300"></a>
+                    <h3 class="project_03">Bikcraft</h3>
+                    <p class="description">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
+                        Projeto Bikcraft Web Page                    
+                        HTML5 | CSS3 & Grid | JavaScript                    
+                        UX Design & Usabilidade | UI Design | Tipografia | Cores SEO | Analytics | Otimização                    
+                        Adobe XD - Wireframe & Codificação do Zero
+                    </p>
+                    </div>
+
+                </div>           
             </section>
             
         </main>
-
+        <!-- Footer -->
         <footer class="footer">
             <p>Desenvolvido por Kátia Reis</p>
             <p>|</p>
