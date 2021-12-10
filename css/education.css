@@ -162,11 +162,12 @@
 }
 
 .languages li {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   line-height: 1.1;
   margin-bottom: 20px;
 }
 
 .languages span {
   color: var(--c7, #8f8f8f);
+  font-size: 1.2rem;
 }

@@ -56,7 +56,7 @@ span {
   text-decoration: none;
   margin-left: 60px;
   margin-top: 20;
-  grid-column: 1 / 3;
+  grid-column: 1 / -1;
   display: flex;
   gap: 30px;
 }
@@ -64,9 +64,8 @@ span {
 .copy a {
   color: var(--c10, #525252);
   text-decoration: none;
-  padding: 0px;
-  margin-left: 0px;
   font-size: 1rem;
   line-height: 1.3;
   font-weight: bold;
+  display: inline;
 }
