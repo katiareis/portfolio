@@ -1,149 +1,212 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kátia Reis</title>
-    <link rel="stylesheet" href="../portfolio/css/normalize.css">
-    <link rel="stylesheet" href="../portfolio/css/reset.css">
-    <link rel="stylesheet" href="../portfolio/css/grid.css">
-    <link rel="stylesheet" href="../portfolio/css/style.css"> <!-- -->
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kátia Reis - Desenvolvedora Front End | UX & UI</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+  </style>
+  <link rel="stylesheet" href="./css/style.css"> <!-- -->
 </head>
+
 <body>
-    <!-- Menu -->
-    <header class="header">
-        <nav class="header_menu">
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Portfólio</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
-        <main>
-            <!-- Intro -->
-            <section class="main_intro_section">            
-                <div class="container container_intro">
-                    <div class="blue_background"></div>
-                    <div class="intro_section">
-                        <div class="intro_text grid-1">
-                            <h1 id="title"><span class="hello_world">Olá, Mundo!</span> Eu sou <span class="name">Kátia Reis</span></h1>
-                            <p>Sou Desenvolvedora Front-end e aspirante a Full Stack.   
-                            </p>
-                            <p>Estudante de Eng. da Computação na Univesp. <br>Web Dev Girl entusiasta em JavaScript. Possuo conhecimento intermediário em <strong>HTML, CSS, Javascript e Python.</strong></p>
-                        </div>
-                        <div class="photo grid-1">
-                            <img src="../portfolio/img/katia-reis-glasses.jpeg" alt="Foto do rosto de Kátia Reis" width="400">  
-                        </div> 
-                    </div>                                    
-                </div>
-            </section class="quote_section">
-            <div class="quote">
+  <!-- Header -->
+  <header class="header">
+    <img src="/img/logo.svg" alt="Logo Katia Reis">
+    <nav>
+      <ul class="header-menu">
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <!-- <li><a href="#">Blog</a></li> -->
+      </ul>
+    </nav>
+  </header>
 
-                <blockquote>                
-                    <p>“ Code is like humor. <br>When you have to explain it, it’s bad.”</p>
-                    <cite>- Cory House</cite>
-                </blockquote>
+  <!-- Main Content -->
+  <main>
+    <!-- Intro -->
+    <section class="intro-section">
+      <div class="container">
+        <h1 class="intro-title">Desenvolvedora<br> Front End &<br> entusiasta a<br> Fullstack</h1>
 
-            <!--    <div>
-                    <img src="../portfolio/img/katia-reis-fullbody.jpeg" width="600px
-                    "> -->
-            </div>
-            <!-- About -->
-            <section class="about">
-                <h2 class="title">Sobre</h2>
-                <div class="container flexbox">
-                    <div class="about_items resume">
-                        <h3 class="subtitle">Resumo</h3>
-    
-                            <p class="about_text"> 
-                            Desenvolvedora Web com domínio em HTML5 e CSS3 (Grid e Flexbox). Estilização de componentes com e sem uso de frameworks para o desenvolvimento de sites responsivos. SEO e HTML semântico.</p>
-    
-                            <p class="about_text">
-                            Conhecimentos intermediários em JavaScript e Bootstrap; Versionamento com Git e Github.</p>
-    
-                            <p class="about_text">
-                            Iniciante em SQL Server.</p>
-    
-                            <p class="about_text">
-                            <span>Inglês fluente.</span> Conhecimentos intermediários de Francês e Espanhol</p>
-                        
-                    </div>
-                    <!-- Contact Me-->
-                    <div class="about_items contact">
-                        <h3 class="subtitle">Contato</h3>
-                        <ul class="contact_list">
-                            <li>
-                                <a href="https://www.linkedin.com/in/katiareis/" target="_blank">LinkedIn Profile</a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/katiareis" target="_blank">Github</a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/KatiaRe98314126">Twitter</a>
-                            </li>
-                            <li>
-                                <a href="mailto:reis.katia86@gmail.com">reis.katia86@gmail.com</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+        <div class="intro-txt">
+          <p>Localizada em São Paulo</p>
+          <p>Inglês fluente</p>
+        </div>
+        <blockquote class="quote">
+          <p>“ Code is like humor. <br>When you have to explain it, it’s bad.”</p>
+          <cite>- Cory House</cite>
+        </blockquote>
+      </div>
 
-            <!-- Projects -->
-            <section class="projects_section">
-
-                <h2 class="title" >Projetos</h2>
-                <p>Estes são alguns dos projetos desenvolvidos durante o meu aprendizado em programação e tecnologias web.</p>
-
-                <div class="portfolio flexbox" >
-
-                    <div class="flex_item">
-                        <a class="project_img" href="https://katiareis.github.io/origamid_WebDevCourse/" target="_blank"><img src="../portfolio/img/bikecraft.jpg" width="300"></a>
-                    <h3 class="project_01">Bikcraft</h3>
-                    <p class="description">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
-                        Projeto Bikcraft Web Page                    
-                        HTML5 | CSS3 & Grid | JavaScript                    
-                        UX Design & Usabilidade | UI Design | Tipografia | Cores SEO | Analytics | Otimização                    
-                        Adobe XD - Wireframe & Codificação do Zero
-                    </p>
-                    </div>
-
-                    <div class="flex_item">
-                        <a class="project_img" href="https://katiareis.github.io/origamid_WebDevCourse/" target="_blank"><img src="../portfolio/img/bikecraft.jpg" width="300"></a>
-                    <h3 class="project_02">Bikcraft</h3>
-                    <p class="description">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
-                        Projeto Bikcraft Web Page                    
-                        HTML5 | CSS3 & Grid | JavaScript                    
-                        UX Design & Usabilidade | UI Design | Tipografia | Cores SEO | Analytics | Otimização                    
-                        Adobe XD - Wireframe & Codificação do Zero
-                    </p>
-                    </div>
-
-                    <div class="flex_item">
-                        <a class="project_img" href="https://katiareis.github.io/origamid_WebDevCourse/" target="_blank"><img src="../portfolio/img/bikecraft.jpg" width="300"></a>
-                    <h3 class="project_03">Bikcraft</h3>
-                    <p class="description">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
-                        Projeto Bikcraft Web Page                    
-                        HTML5 | CSS3 & Grid | JavaScript                    
-                        UX Design & Usabilidade | UI Design | Tipografia | Cores SEO | Analytics | Otimização                    
-                        Adobe XD - Wireframe & Codificação do Zero
-                    </p>
-                    </div>
-
-                </div>           
-            </section>
-            
-        </main>
-        <!-- Footer -->
-        <footer class="footer">
-            <p>Desenvolvido por Kátia Reis</p>
-            <p>|</p>
-            <p>Veja o código deste site em <a href="https://github.com/katiareis" target="_blank">Github</a></p>
-        </footer>
+      <div class="image-hero">
+        <img src="./img/image-hero-grande.jpg" alt="Foto de Kátia Reis">
+      </div>
     </section>
+
+    <!-- About -->
+    <section aria-label="about" class="about" id="projetos">
+
+      <h2 class="about-title">&ltSou/&gt</h2>
+
+      <p class="about-txt">
+        Desenvolvedora Web com domínio em <strong>HTML5</strong>, <strong>CSS3</strong>(Grid e Flexbox) e <strong>JavaScript</strong>.
+        <br><br>
+        Estilização de componentes com e sem uso de frameworks(Bootstrap) para o desenvolvimento de sites responsivos. SEO e HTML semântico.
+        <br><br>
+        Versionamento com <strong>Git</strong> e <strong>Github</strong>.<br>
+        Iniciante em <strong>SQL Server</strong>.
+        <br><br>
+        <strong>Sprint design</strong> utilizando sólidos conceitos de <strong>UX</strong> e <strong>UI Design</strong>. Prototipação em Figma (wireframing e protótipo de alta fidelidade).
+        <br><br>
+        <span><strong>Inglês fluente</strong>.</span>
+        <br>
+        Conhecimentos intermediários de Francês e Espanhol
+      </p>
+
+    </section>
+
+    <!-- Projects -->
+    <section aria-label="projects" class="projects">
+
+      <h2 class="projects-title">Principais Projetos++</h2>
+      <p class="projects-txt">Estes são alguns dos projetos desenvolvidos durante o meu aprendizado em programação e tecnologias web.</p>
+
+      <div class="portfolio">
+        <div class="item-bg">
+          <span class="portfolio-year">2021</span>
+          <h3 class="portfolio-title">Bikcraft</h3>
+          <p class="portfolio-txt">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
+            Desenvolvido utilizando HTML, CSS (Grid e Flexbox) e JavaScript puros.
+          </p>
+          <ul class="portfolio-skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>UX Design & Usabilidade</li>
+            <li>UI Design</li>
+            <li>Tipografia & Cores</li>
+            <li>SEO & Analytics</li>
+            <li>Wireframe & Prototipação</li>
+            <li>Código Semantico</li>
+          </ul>
+        </div>
+
+        <div class="item-bg">
+          <span class="portfolio-year">2021</span>
+          <h3 class="portfolio-title">Bikcraft</h3>
+          <p class="portfolio-txt">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
+            Desenvolvido utilizando HTML, CSS (Grid e Flexbox) e JavaScript puros.
+          </p>
+          <ul class="portfolio-skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>UX Design & Usabilidade</li>
+            <li>UI Design</li>
+            <li>Tipografia & Cores</li>
+            <li>SEO & Analytics</li>
+            <li>Wireframe & Prototipação</li>
+            <li>Código Semantico</li>
+          </ul>
+        </div>
+
+        <div class="item-bg">
+          <span class="portfolio-year">2021</span>
+          <h3 class="portfolio-title">Bikcraft</h3>
+          <p class="portfolio-txt">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
+            Desenvolvido utilizando HTML, CSS (Grid e Flexbox) e JavaScript puros.
+          </p>
+          <ul class="portfolio-skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>UX Design & Usabilidade</li>
+            <li>UI Design</li>
+            <li>Tipografia & Cores</li>
+            <li>SEO & Analytics</li>
+            <li>Wireframe & Prototipação</li>
+            <li>Código Semantico</li>
+          </ul>
+        </div>
+
+        <div class="item-bg">
+          <span class="portfolio-year">2021</span>
+          <h3 class="portfolio-title">Bikcraft</h3>
+          <p class="portfolio-txt">Projeto Final do Curso Web Design Completo da Origamid - Site Responsivo do Zero
+            Desenvolvido utilizando HTML, CSS (Grid e Flexbox) e JavaScript puros.
+          </p>
+          <ul class="portfolio-skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>UX Design & Usabilidade</li>
+            <li>UI Design</li>
+            <li>Tipografia & Cores</li>
+            <li>SEO & Analytics</li>
+            <li>Wireframe & Prototipação</li>
+            <li>Código Semantico</li>
+          </ul>
+        </div>
+
+        <h3>Veja mais projetos</h3>
+
+      </div>
+    </section>
+
+    <div class="img-decoration">
+      <img src="/img/image-deco.svg" alt="Imagem decorativa de formas geométricas e cores">
+    </div>
+
+    <!-- Education -->
+    <section class="education" id="education" aria-label="Education">
+      <div class="education-container">
+        <h2 class="education-title">Formação</h2>
+        <p class="education-txt">Minha mais recente experiência acadêmica é o curso de <strong>Eng. da Computação</strong> na Univesp. Além disso, me mantenho sempre atualizada com <strong>cursos intensivos</strong> e <strong>bootcamps</strong> online.</p>
+
+        <ul class="">
+          <li>
+            <span></span>
+            <h3></h3>
+            <span></span>
+          </li>
+        </ul>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Contact Me-->
+  <div class="about_items contact">
+    <h3 class="subtitle">Contato</h3>
+    <ul class="contact_list">
+      <li>
+        <a href="https://www.linkedin.com/in/katiareis/" target="_blank">LinkedIn Profile</a>
+      </li>
+      <li>
+        <a href="https://github.com/katiareis" target="_blank">Github</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/KatiaRe98314126">Twitter</a>
+      </li>
+      <li>
+        <a href="mailto:reis.katia86@gmail.com">reis.katia86@gmail.com</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Desenvolvido por Kátia Reis</p>
+    <p>|</p>
+    <p>Veja o código deste site em <a href="https://github.com/katiareis" target="_blank">Github</a></p>
+  </footer>
+
 </body>
+
 </html>
