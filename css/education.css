@@ -131,6 +131,7 @@
 
 .programming-skills span {
   color: var(--c7, #8f8f8f);
+  font-size: 1.12rem;
 }
 
 .languages-list {

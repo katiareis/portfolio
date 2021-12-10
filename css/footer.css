@@ -1,19 +1,19 @@
 .footer {
   background: var(--preto-puro, #000000);
-  padding: 100px 20px 60px 20px;
+  padding: 80px 20px 20px 10px;
 }
 
 .contact {
   margin: 60px;
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 100px;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
 }
 
 .contact-title {
   font-family: "IBM Plex Mono", monospace;
   color: var(--c1, #f5f5f5);
-  font-size: 4rem;
+  font-size: 5rem;
   line-height: 1;
   text-transform: uppercase;
   grid-column: 1;
@@ -21,25 +21,28 @@
 
 .contact-txt {
   font-family: "IBM Plex Sans", sans-serif;
-  color: var(--c1, #f5f5f5);
+  color: var(--c4, #cccccc);
+  font-size: 1.3rem;
+  line-height: 1.33;
   text-decoration: none;
   grid-column: 1;
 }
 
 .contact_list {
   grid-column: 2;
-  display: flex;
-  flex-direction: column;
+  grid-row: 1 / 3;
 }
 
 .contact_list li,
-a {
+a,
+span {
   font-family: "IBM Plex Mono", monospace;
   color: var(--c1, #f5f5f5);
   text-decoration: none;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   line-height: 1.3;
-  padding: 5px 10px;
+  padding: 10px 20px;
+  margin-left: 30px;
 }
 
 .copy {
@@ -50,4 +53,14 @@ a {
   grid-column: 1 / 3;
   display: flex;
   gap: 30px;
+}
+
+.copy a {
+  color: var(--c10, #525252);
+  text-decoration: none;
+  padding: 0px;
+  margin-left: 0px;
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: bold;
 }
