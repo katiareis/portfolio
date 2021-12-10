@@ -52,6 +52,7 @@ img {
   --c12: #292929;
   --c13: #141414;
   --preto-puro: #000000;
+  --cinza-material: #292929;
   --gradiente-cinza: linear-gradient(
     198.82deg,
     rgba(0, 0, 0, 0.74) 3.66%,
@@ -59,11 +60,6 @@ img {
   );
 }
 
-.img-decoration {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .img-decoration img {
-  max-width: 100%;
+  min-width: 100vw;
 }
