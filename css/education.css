@@ -3,6 +3,7 @@
   color: #fff;
   display: flex;
   flex-direction: column;
+  padding-bottom: 30px;
 }
 
 .education-container {
