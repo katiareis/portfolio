@@ -77,11 +77,11 @@
   font-size: 1.125rem;
   line-height: 1.1;
   font-weight: bold;
-  color: var(--preto-puro, #000000);
 }
 
 .portfolio-title a {
   text-decoration: none;
+  color: var(--preto-puro, #000000);
 }
 
 .portfolio-title a:hover {
@@ -114,6 +114,16 @@
 
 .portfolio-skills li:hover {
   background: var(--c3, #e0e0e0);
+}
+
+.see-more a {
+  text-decoration: none;
+  color: var(--preto-puro, #000000);
+  transition: 0.3s;
+}
+
+.see-more a:hover {
+  color: var(--purple, #8844ee);
 }
 
 @media (max-width: 1025px) {
