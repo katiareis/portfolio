@@ -39,7 +39,7 @@
 }
 
 .image-hero {
-  background-image: url("./img/image-hero-grande.jpg");
+  background-image: url("../img/image-hero-grande.jpg");
   height: 100vh;
   max-width: 100%;
   background-repeat: no-repeat;
