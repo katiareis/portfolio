@@ -16,12 +16,16 @@
   word-break: break-all;
   max-width: 6ch;
   grid-column: 1;
+  transition: 0.3s;
+}
+
+.about-title:hover {
+  color: var(--purple, #8844ee);
 }
 
 .about-txt {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 1.5rem;
-  color: var(--c10, #525252);
   line-height: 1.4;
   max-width: 38ch;
   margin-top: 40px;
@@ -31,6 +35,11 @@
 
 .about-txt strong {
   color: var(--c13, #141414);
+  transition: 0.3s;
+}
+
+.about-txt strong:hover {
+  color: var(--purple, #8844ee);
 }
 
 @media (max-width: 1025px) {

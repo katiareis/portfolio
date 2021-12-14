@@ -19,7 +19,7 @@
 .intro-title {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 300;
-  font-size: 4rem; /* 64px divided per 16px = 4rem*/
+  font-size: min(4rem, 4.5vw); /* 4.5vw ou 64px divided per 16px = 4rem*/
   line-height: 4.5rem;
   padding-left: 100px;
   color: var(--c1, #f5f5f5);
@@ -39,7 +39,12 @@
 }
 
 .image-hero {
+  background-image: url("/img/image-hero-grande.jpg");
+  height: 100vh;
   max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
   margin: 0;
   grid-column: 2 / -1;
   grid-row: 1 / -1;

@@ -26,6 +26,11 @@
   max-width: 3ch;
   grid-column: 1;
   grid-row: 1 / -1;
+  transition: 0.3s;
+}
+
+.education-title:hover {
+  color: var(--c10, #525252);
 }
 
 .education-txt {
@@ -73,6 +78,11 @@
   line-height: 1.4;
   margin-bottom: 40px;
   position: relative;
+  transition: 0.3s;
+}
+
+.course-name:hover {
+  color: var(--purple, #8844ee);
 }
 
 .course-name::before {

@@ -12,6 +12,14 @@
   text-transform: uppercase;
 }
 
+.projects-title strong {
+  transition: 0.3s;
+}
+
+.projects-title strong:hover {
+  color: var(--purple, #8844ee);
+}
+
 .projects-txt {
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 1.5rem;
@@ -53,9 +61,15 @@
   font-family: "IBM Plex Mono", monospace;
   font-size: 0.875rem;
   position: absolute;
-  top: 13px;
+  top: 20px;
   left: -110px;
   color: var(--c10, #525252);
+  transition: 0.3s;
+}
+
+.portfolio-year:hover {
+  color: var(--purple, #8844ee);
+  font-weight: bold;
 }
 
 .portfolio-title {
@@ -63,13 +77,22 @@
   font-size: 1.125rem;
   line-height: 1.1;
   font-weight: bold;
+  color: var(--preto-puro, #000000);
+}
+
+.portfolio-title a {
   text-decoration: none;
 }
 
+.portfolio-title a:hover {
+  color: var(--purple, #8844ee);
+}
+
 .portfolio-txt {
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 0.875rem;
+  color: var(--c11, #3d3d3d);
   line-height: 1.4;
-  color: var(--c10, #525252);
   grid-column: 1;
 }
 
@@ -86,6 +109,11 @@
   border-radius: 4px;
   background: #fff;
   padding: 5px 10px;
+  transition: 0.3s;
+}
+
+.portfolio-skills li:hover {
+  background: var(--c3, #e0e0e0);
 }
 
 @media (max-width: 1025px) {

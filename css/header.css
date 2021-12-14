@@ -30,6 +30,11 @@
   text-decoration: none;
   color: var(--c1, #f5f5f5);
   display: block;
+  transition: 0.3s;
+}
+
+.header-menu a:hover {
+  color: var(--purple, #8844ee);
 }
 
 @media (max-width: 800px) {
