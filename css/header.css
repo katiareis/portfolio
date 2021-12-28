@@ -1,14 +1,20 @@
 .header {
-  max-width: 1600px;
+  min-height: 60px;
+  max-width: 1400px;
   background-color: var(
     --preto-puro,
     #000000
   ); /* This is a CSS variable applied */
-  padding: 10px 100px;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0px 100px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 2;
 }
 
 .header img {
@@ -34,7 +40,7 @@
 }
 
 .header-menu a:hover {
-  color: var(--purple, #8844ee);
+  color: var(--hover-color-1, #8844ee);
 }
 
 @media (max-width: 800px) {

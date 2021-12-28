@@ -1,4 +1,5 @@
 .education {
+  max-width: min(1600px, 100vw);
   background: var(--cinza-material, #292929);
   color: #fff;
   display: flex;
@@ -7,9 +8,9 @@
 }
 
 .education-container {
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 100px 60px;
+  padding: 100px 0px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr;

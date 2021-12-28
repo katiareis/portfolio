@@ -1,7 +1,7 @@
 .intro-section {
-  max-width: 1600px;
+  max-width: 100vw;
   background: var(--gradiente-cinza);
-  padding: 0;
+  padding-top: 0px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -11,17 +11,18 @@
 
 .container {
   display: grid;
-  grid-template-columns: 2fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr 1fr auto;
   align-items: center;
 }
 
 .intro-title {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 300;
-  font-size: min(4rem, 4.5vw); /* 4.5vw ou 64px divided per 16px = 4rem*/
+  font-size: min(4.5rem, 4.5vw); /* 4.5vw ou 72px divided per 16px = 4.5rem */
   line-height: 4.5rem;
   padding-left: 100px;
+  padding-top: 180px;
   color: var(--c1, #f5f5f5);
   grid-column: 1 / 3;
   grid-row: 1;
@@ -30,9 +31,9 @@
 .intro-txt {
   font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
-  font-size: 1.5rem; /* 24px divided per 16px = 1.5rem*/
+  font-size: min(2rem, 2vw); /* 32px divided per 16px = 2rem */
   line-height: 2.5rem;
-  padding-left: 100px;
+  padding-left: 110px;
   color: var(--c2, #f0f0f0);
   grid-column: 1 / 3;
   grid-row: 2 / 3;
@@ -40,7 +41,7 @@
 
 .image-hero {
   background-image: url("../img/image-hero-grande.jpg");
-  height: 100vh;
+  height: 100%;
   max-width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,8 +53,9 @@
 
 .quote {
   font-family: "IBM Plex Sans Condensed", sans-serif;
-  font-size: 1.5rem; /* 24px divided per 16px = 1.5rem*/
-  line-height: 2.5rem;
+  font-size: max(1.25rem, 1.25vw); /* 20px divided per 16px = 1.25rem */
+  line-height: 2rem;
+  letter-spacing: 1.5;
   text-align: right;
   color: var(--c2, #f0f0f0);
   grid-column: 2 / 3;
@@ -63,6 +65,7 @@
 
 .quote cite {
   font-style: italic;
+  line-height: 3rem;
 }
 
 /* Media Queries*/
@@ -70,24 +73,21 @@
   .intro-section {
     max-width: 1024px;
   }
-
   .container {
     grid-template-columns: 1fr;
     align-content: center;
-    padding-top: 50px;
   }
-
   .intro-title {
-    font-size: 2.8rem;
-    line-height: 3.5rem;
+    font-size: min(4rem, 4vw); /* 60px divided per 16px = 3.75rem */
+    line-height: 4rem;
+    padding-left: 90px;
+    padding-top: 160px;
   }
-
   .intro-txt {
-    font-size: 1rem;
-    line-height: 2.5rem;
+    font-size: max(1.5rem, 1.5vw); /* 24px divided per 16px = 1.5rem */
+    line-height: 2.1rem;
     padding-left: 100px;
   }
-
   .image-hero {
     max-width: 100%;
     margin: 0;
@@ -96,7 +96,7 @@
   }
   .quote {
     font-family: "IBM Plex Sans Condensed", sans-serif;
-    font-size: 1rem;
+    font-size: max(1.25rem, 1.25vw); /* 20px divided per 16px = 1.25rem */
     line-height: 1.5rem;
   }
 }
@@ -104,6 +104,22 @@
 @media (max-width: 900px) {
   .intro-section {
     max-width: 900px;
+  }
+  .intro-title {
+    font-size: min(3.75rem, 3.75vw); /* 60px divided per 16px = 3.75rem */
+    line-height: 3.75rem;
+    padding-left: 80px;
+    padding-top: 150px;
+  }
+  .intro-txt {
+    font-size: max(1.25rem, 1.25vw); /* 20px divided per 16px = 1.25rem */
+    line-height: 2rem;
+    padding-left: 80px;
+  }
+  .quote {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: max(1.25rem, 1.25vw); /* 20px divided per 16px = 1.25rem */
+    line-height: 1.5rem;
   }
 }
 
@@ -114,16 +130,16 @@
   .container {
     grid-template-columns: 1fr;
     align-content: center;
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .intro-title {
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: min(3.75rem, 3.75vw); /* 60px divided per 16px = 3.75rem */
+    line-height: 3rem;
     padding-left: 70px;
   }
   .intro-txt {
-    font-size: 0.95rem;
-    line-height: 2.5rem;
+    font-size: max(1.125rem, 1.125vw); /* 18px divided per 16px = 1.125rem */
+    line-height: 2rem;
     padding-left: 70px;
   }
   .image-hero {

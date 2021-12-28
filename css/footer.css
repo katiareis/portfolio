@@ -1,6 +1,8 @@
 .footer {
+  max-width: min(1600px, 100vw);
+  margin: 0;
   background: var(--preto-puro, #000000);
-  padding: 80px 20px 20px 20px;
+  padding: 80px 20px 20px 40px;
 }
 
 .contact {

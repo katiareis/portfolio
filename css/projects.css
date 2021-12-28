@@ -1,7 +1,7 @@
 .projects {
-  max-width: 1200px;
+  max-width: min(1600px, 100vw);
   margin: 0 auto;
-  padding: 30px 60px;
+  padding: 30px 100px;
 }
 
 .projects-title {
@@ -28,12 +28,13 @@
   margin-top: 20px;
   margin-bottom: 60px;
   max-width: 40ch;
+  padding-left: 5px;
 }
 
 .portfolio {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 60px;
+  padding: 60px 120px 60px 80px;
 }
 
 .item-bg {

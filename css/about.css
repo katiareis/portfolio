@@ -1,7 +1,7 @@
 .about {
-  max-width: 1200px;
+  max-width: min(1600px, 100vw);
   margin: 0 auto;
-  padding: 40px 60px;
+  padding: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
@@ -11,12 +11,13 @@
   font-family: "IBM Plex Mono", monospace;
   color: var(--c3, #e0e0e0);
   font-size: 8rem;
-  line-height: 4;
+  line-height: 5;
   text-transform: uppercase;
   word-break: break-all;
   max-width: 6ch;
   grid-column: 1;
   transition: 0.3s;
+  padding-left: 15px;
 }
 
 .about-title:hover {
