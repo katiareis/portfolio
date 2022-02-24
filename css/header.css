@@ -43,11 +43,28 @@
   color: var(--hover-color-1, #8844ee);
 }
 
+@media (max-width: 1200px) {
+  .header {
+    min-height: 60px;
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    min-height: 60px;
+    max-width: 1024px;
+  }
+}
+
 @media (max-width: 800px) {
   .header {
+    min-height: 50px;
+    max-width: 800px;
     flex-direction: column;
     gap: 20px;
     padding: 20px;
+    z-index: 0;
   }
   .header img {
     padding: 10px;
@@ -59,9 +76,11 @@
 }
 
 @media (max-width: 400px) {
-  header {
+  .header {
+    min-height: 50px;
+    max-width: 400px;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     padding: 20px;
   }
 }
